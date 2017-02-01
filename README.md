@@ -10,7 +10,7 @@ sudo apt-get install git
 
 ##Java
 
-Install OpenJDK
+Install OpenJDK. Java is needed for Neo4j.
 
 ##Neo4j
 This is the Graph Database that will Store All of Our Data  
