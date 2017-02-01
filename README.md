@@ -8,6 +8,10 @@ You need this to get the contents of this repository.
 sudo apt-get update  
 sudo apt-get install git  
 
+##Java
+
+Install OpenJDK
+
 ##Neo4j
 This is the Graph Database that will Store All of Our Data  
 Follow the instructions as described here: https://www.digitalocean.com/community/tutorials/how-to-install-neo4j-on-an-ubuntu-vps#installing-neo4j  
