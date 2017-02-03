@@ -48,7 +48,6 @@ def import_contracts_from_csv(file_path, target_org_name, delimiter='\t', db_dat
             if is_year(row):
                 year = get_year(row)
                 print "Setting Year to: " + str(year)
-                year = get_year(row)
             elif is_row_empty(row):
                 print "SKIP"
             else:
