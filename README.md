@@ -26,6 +26,14 @@ sudo add-apt-repository ppa:fkrull/deadsnakes
 sudo apt-get update  
 sudo apt-get install python2.7  
 
+###pip package installer for Python
+This is a Package Manager for Python. Ubuntu has its own, python as well  
+sudo apt-get install python-pip 
+
+###neo4j python connector
+This is needed for Python to be able to communicate with the neo4j database   
+pip install neo4j-driver
+
 
 ##OpenOffice
 Editing and Viewing Datasets from Excel and / or Word Files. You can use LibreOffice as well as an alternative.  
