@@ -19,7 +19,7 @@ sudo apt-get install openjdk-9-jre
 This is the Graph Database that will Store All of Our Data  
 Follow the instructions as described here: https://www.digitalocean.com/community/tutorials/how-to-install-neo4j-on-an-ubuntu-vps#installing-neo4j  
 
-Long Story Short: Neo4j Is not an official Ubuntu / Debian Package therefore you will have to add it's location to your computers repository paths. After it's done, make sure tp refresh your Package Installer and then Install neo4j
+Long Story Short: Neo4j Is not an official Ubuntu / Debian Package therefore you will have to add it's location to your computers repository paths. After it's done, make sure to refresh your Package Installer and then Install neo4j
 
 ##Python2.7 Interpreter
 Python scripts will help us interpret massive amounts of data and move them to the Database  
@@ -30,12 +30,12 @@ sudo apt-get update
 sudo apt-get install python2.7  
 ```
 ###pip package installer for Python
-This is a Package Manager for Python. Ubuntu has its own, python as well  
+This is a Package Manager for Python. It eases installing python packages a lot. The same idea as for Ubuntu package manager, in this case for a smaller system (Python only)
 ```sh  
 sudo apt-get install python-pip 
 ```
 ###neo4j python connector
-This is needed for Python to be able to communicate with the neo4j database 
+This is needed for Python to communicate with the neo4j DB
 ```sh 
 pip install neo4j-driver
 ```
