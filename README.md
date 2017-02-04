@@ -64,6 +64,6 @@ python contract.py -f "<full path of the csv file>" -o "<Name of the Organizatio
 ```
 
 #Utils
-##Delet all Items from the Database  
+##Delete all Items from the Database  
 MATCH (n) DETACH  
 DELETE n
