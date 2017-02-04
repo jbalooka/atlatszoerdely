@@ -62,3 +62,8 @@ git clone https://github.com/jbalooka/atlatszoerdely.git
 cd ~/atlatszoerdely/lib/contracts
 python contract.py -f "<full path of the csv file>" -o "<Name of the Organization>"
 ```
+
+#Utils
+##Delet all Items from the Database  
+MATCH (n) DETACH
+DELETE n
