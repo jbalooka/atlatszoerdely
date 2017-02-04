@@ -65,5 +65,15 @@ python contract.py -f "<full path of the csv file>" -o "<Name of the Organizatio
 
 #Utils
 ##Delete all Items from the Database  
+```sql
 MATCH (n) DETACH  
 DELETE n
+```
+
+##Number of Contracts between an Organization and a Company, in Descending Order
+```sql
+MATCH (o:Organization)-[k:CONTRACTED]->(c:Company)
+RETURN o.name AS Organization, c.name AS Company, count(k) as nContracts, COLLECT(k) as Contracts
+ORDER BY nContracts DESC
+LIMIT 10
+```
