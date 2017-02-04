@@ -55,7 +55,7 @@ Create a folder that you will use as a Repo Dir
 ```sh  
 mkdir ~/atlatszoerdely  
 cd ~/atlatszoerdely  
-git clone 
+git clone https://github.com/jbalooka/atlatszoerdely.git
 ```
 ##2. Go to contract.py folder and start the import process
 ```sh  
