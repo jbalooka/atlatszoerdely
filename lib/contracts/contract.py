@@ -23,7 +23,6 @@ from argparse import ArgumentParser
 from argparse import RawDescriptionHelpFormatter
 from neo4j.v1 import GraphDatabase, basic_auth
 import csv
-from robotide.editor.dialoghelps import row
 
 __all__ = []
 __version__ = 0.1
