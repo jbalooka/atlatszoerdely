@@ -47,3 +47,18 @@ sudo apt-get libreoffice
 ```
 #Installation on Windows
 Download the Installers and simply Execute them.
+
+
+#Using the Contract Importer
+##1. Checkout this Git Repository  
+Create a folder that you will use as a Repo Dir
+```sh  
+mkdir ~/atlatszoerdely  
+cd ~/atlatszoerdely  
+git clone 
+```
+##2. Go to contract.py folder and start the import process
+```sh  
+cd ~/atlatszoerdely/lib/contracts
+python contract.py -f "<full path of the csv file>" -o "<Name of the Organization>"
+```
